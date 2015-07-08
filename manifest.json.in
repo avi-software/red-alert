@@ -1,0 +1,15 @@
+{
+    "name": "@APP_ID@",
+    "description": "Red Alert it is application that lets you get real-time alert when the red alert sounded in Israel. The application relies on information that comes from Home Front Command. Notice that this is an unofficial application.",
+    "architecture": "@CLICK_ARCH@",
+    "title": "@APP_NAME@",
+    "hooks": {
+        "red-alert": {
+            "apparmor": "red-alert.apparmor",
+            "desktop": "red-alert.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Avi Software <avisoftware123@gmail.com>",
+    "framework": "ubuntu-sdk-14.04-qml"
+}

@@ -1,0 +1,11 @@
+[Desktop Entry]
+_Name=Red Alert
+Comment=Red Alert it is application that lets you get real-time alert when the red alert sounded in Israel. The application relies on information that comes from Home Front Command. Notice that this is an unofficial application.
+Exec=@EXEC@
+Icon=@ICON@
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+
+
+
